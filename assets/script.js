@@ -63,7 +63,7 @@ buttonNext.addEventListener("click", () => {
 
 // Ajout des Dots / Ajout de la fonction dans les flèches directionnelles //
 
-const dots = document.querySelectorAll('dot');
+const dots = document.querySelectorAll('.dot');
 
 function changeDots () {
     dots.forEach(dot => dot.classList.remove('dot_selected'));
